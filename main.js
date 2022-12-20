@@ -4,5 +4,5 @@ window.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
     loader.style.opacity;
     loader.style.display = "none";
-  }, 9000);
+  }, 5000);
 });
