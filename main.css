@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(34, 48, 231);
+  background: linear-gradient(
+    1000deg,
+    rgba(34, 48, 231, 1) 13%,
+    rgba(69, 69, 205, 1) 36%,
+    rgba(29, 37, 128, 1) 48%,
+    rgba(69, 69, 205, 1) 58%,
+    rgba(43, 74, 166, 1) 75%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+
+.loader-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
